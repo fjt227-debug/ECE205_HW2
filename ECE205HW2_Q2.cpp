@@ -28,7 +28,7 @@ int main()
     //write data in text file
     //Format output file
     out.open("output.txt");
-    out.setf(ios::fixed);
+    out.setf(ios::fixed); //Displays numbers in standard format instead of scientific notation
     out.setf(ios::showpoint); //Forces the decimal point to always be shown
     out.precision(2); //Sets number of digits after decimal point
     //Results being sent to the output.txt file
